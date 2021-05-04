@@ -45,9 +45,7 @@ def show():
    A=1
    if A==1:
    	import main
-
-img_satrt = ImageTk.PhotoImage(Image.open("img/start.png"))
-img_label=Label(image=img_satrt)
+   	
 B1 = Button(root,height=3,	
 width=7,text="Browse File",borderwidth=1,activebackground='purple1',bd='5',bg='gold',justify='center',    
 command = show)
